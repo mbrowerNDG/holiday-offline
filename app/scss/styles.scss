@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.network-switch {
+  display: block;
+}
+.container {
+  min-height: 100vh;
+  line-height: 1.5;
+  overflow-x: hidden;
+  direction: inherit;
+}
+.switch-network {
+  display: none;
+}
+.slider-wrapper {
+  height: 50vh;
+  width: 100%;
+}
+.online-wrapper {
+  margin: auto;
+}
+
+.online-wrapper h2 {
+  display: inline;
+  background-color: #181e1e;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  line-height: 170%;
+}
+
+.toggle-content {
+  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 350ms ease-in-out;
+}
+
+.toggle-content.is-visible {
+  display: block;
+  height: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.carousel-cell {
+  width: 100%; /* full width */
+  height: 60vh;
+
+  /* center images in cells with flexbox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+  height: 60vh;
+}
+
+.carousel-cell img {
+  display: block;
+  max-height: 60vh;
+}
+.flickity-button {
+  background: transparent;
+}
+/* big previous & next buttons */
+.flickity-prev-next-button {
+  width: 75px;
+  height: 64px;
+}
+/* icon color */
+.flickity-button-icon {
+  fill: #7e828e;
+}
+
+.flickity-prev-next-button.previous {
+  left: 25%;
+}
+.flickity-prev-next-button.next {
+  right: 25%;
+}
+.bg-blue {
+  min-height: 30vh;
+  background: url("../assets/images/Pattern_Full.png");
+  background-repeat: intial;
+  object-fit: contain;
+  width: 100%;
+  margin-top: 30px;
+}
+.copy-container {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 40vw;
+  margin: auto;
+  padding-bottom: 98px;
+}
+.p-white {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+}
+.h1-gold {
+  color: #ceaa79;
+  font-size: 54px;
+  font-weight: 500;
+  letter-spacing: 1.35px;
+  line-height: 28px;
+}
+.p-gold {
+  color: #ceaa79;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+}
+footer {
+  background: #102b4c;
+  min-height: 10vh;
+  display: flex;
+  .footer-container{
+    padding: 33px 100px;
+  }
+  p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    align-self: flex-start;
+  }
+  .icons{
+    align-self: flex-end
+  }
+  
+}
