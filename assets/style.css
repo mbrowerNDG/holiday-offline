@@ -1,0 +1,52 @@
+body {
+
+  margin: 0;
+  padding: 0;
+}
+.network-switch{
+  display: block;
+}
+.container {
+  min-height: 100vh;
+  line-height: 1.5;
+  overflow-x: hidden;
+  direction: inherit;
+
+
+}
+.switch-network{
+  display: none;
+}
+.flex-img{
+  width: 100%;
+  height: auto;
+}
+.online-wrapper {
+  margin: auto;
+  min-width: 310px;
+  width: 80%;
+  max-width: 600px;
+  line-height: 130%;
+  font-weight: 700;
+  padding: 50px 0 10px;
+}
+
+.online-wrapper h1 {
+
+}
+
+.online-wrapper h2 {
+
+}
+
+.toggle-content {
+	display: none;
+	height: 0;
+	overflow: hidden;
+	transition: height 350ms ease-in-out;
+}
+
+.toggle-content.is-visible {
+	display: block;
+	height: auto;
+}

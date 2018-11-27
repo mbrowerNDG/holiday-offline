@@ -1,85 +1,199 @@
-<html xmlns="http://www.w3.org/1999/xhtml" manifest="appcache.manifest">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Offline Toy Box</title>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
-    />
-    <!-- build:<type> <path> -->
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-    <script type="text/javascript" src="/js/main.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
-    <!-- endbuild -->
-  </head>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Unplug and Recharge</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-  <body class="">
-    <div class="container">
-      <div class="online-wrapper ">
-        <div class="slider-wrapper">
-          <div
-            class="carousel"
-            data-flickity='{ "fullscreen": true,"pageDots": false, "arrowShape": "M0.541,32.7493 C0.526,32.7843 0.521,32.8213 0.507,32.8563 C0.189,33.6663 0,34.5413 0,35.4633 C0,36.3853 0.189,37.2603 0.507,38.0693 C0.521,38.1043 0.526,38.1423 0.541,38.1773 C0.904,39.0593 1.433,39.8533 2.097,40.5183 L30.413,68.8333 C33.203,71.6243 37.723,71.6243 40.513,68.8333 C43.304,66.0433 43.304,61.5233 40.513,58.7333 L24.386,42.6053 L92.857,42.6053 C96.803,42.6053 100,39.4063 100,35.4633 C100,31.5203 96.803,28.3203 92.857,28.3203 L24.386,28.3203 L40.513,12.1923 C43.304,9.4023 43.304,4.8833 40.513,2.0933 C39.118,0.6973 37.291,0.0003 35.463,0.0003 C33.636,0.0003 31.808,0.6973 30.413,2.0933 L2.097,30.4083 C1.433,31.0723 0.904,31.8673 0.541,32.7493" }'>
-          
-            <div class="carousel-cell"><img src="/assets/images/slide-1.png" alt=""></div>
-            <div class="carousel-cell"><img src="/assets/images/slide-1.png" alt=""></div>
-            <div class="carousel-cell"><img src="/assets/images/slide-1.png" alt=""></div>
-            <div class="carousel-cell"><img src="/assets/images/slide-1.png" alt=""></div>
-            <div class="carousel-cell"><img src="/assets/images/slide-1.png" alt=""></div>
-          </div>
-  <div class="bg-blue">
-<div class="copy-container">
-  <p class="p-white">
-    We are so grateful for the opportunity to work with so many incredible clients, colleagues and friends. If we’re all going to achieve our goals for 2019,
-we’ve got to be refreshed and energized.
-  </p>
-  <h1 class="h1-gold">Ready, Set, Disconnect!</h1>
-  <p class="p-gold">Turn off your Wi-Fi now to reveal a special surprise and to start recharging.</p>
-</div>
-<footer>
-  <div class="footer-container">
-    <p>©2018 NDG Communications, Inc.</p>
-   <p>105 Centennial Street, Suite K, La Plata, Maryland 20646  |  877.889.1848</p>
-  </div>
-  
-</footer>
-  </div>
+  <!-- build:<type> <path> -->
+  <link rel="shortcut icon" type="image/png" href="favicon.ico">
+  <link rel="stylesheet" href="https://use.typekit.net/ghw7vsu.css">
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+
+  <script type="text/javascript" src="/js/main.js"></script>
+  <script type="text/javascript" src="/js/snow.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <!-- endbuild -->
+</head>
+
+<body class="">
+  <div class="container" id="hideContent">
+
+    <div class="slider-wrapper">
+      <div class="carousel" data-flickity='{ "fullscreen": true,"pageDots": false, "wrapAround": true, "arrowShape": "M0.541,32.7493 C0.526,32.7843 0.521,32.8213 0.507,32.8563 C0.189,33.6663 0,34.5413 0,35.4633 C0,36.3853 0.189,37.2603 0.507,38.0693 C0.521,38.1043 0.526,38.1423 0.541,38.1773 C0.904,39.0593 1.433,39.8533 2.097,40.5183 L30.413,68.8333 C33.203,71.6243 37.723,71.6243 40.513,68.8333 C43.304,66.0433 43.304,61.5233 40.513,58.7333 L24.386,42.6053 L92.857,42.6053 C96.803,42.6053 100,39.4063 100,35.4633 C100,31.5203 96.803,28.3203 92.857,28.3203 L24.386,28.3203 L40.513,12.1923 C43.304,9.4023 43.304,4.8833 40.513,2.0933 C39.118,0.6973 37.291,0.0003 35.463,0.0003 C33.636,0.0003 31.808,0.6973 30.413,2.0933 L2.097,30.4083 C1.433,31.0723 0.904,31.8673 0.541,32.7493" }'>
+        <div class="carousel-cell">
+          <img src="/assets/images/slide-1.png" alt="">
         </div>
-       
-        <video
-          height="400"
-          width="600"
-          autoplay
-          id="showVideo"
-          loop
-          style="display: none"
-        >
-          <source
-            src="./app/assets/videos/Offline_Snow_Video.mp4"
-            type="video/mp4"
-          />
-        </video>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_1.svg" alt="">
+          <div class="slider-copy">
+            <p class="p-green">
+              <strong> Read a Book for 30 Minutes</strong>
+              <br/> (Or More!)
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_2.svg" alt="">
+          <div class="slider-copy-2">
+            <p class="p-green">
+              <strong> Go for a Walk Outside</strong>
+              <br/> (Leave Your Phone Inside)
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_3.svg" alt="">
+          <div class="slider-copy-3">
+            <p class="p-green">
+              <strong> Spend 10 Minutes Looking at the Clouds or the Stars</strong>
+              <br/> (Pick Out Shapes or Connect the Dots)
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_4.svg" alt="">
+          <div class="slider-copy-4">
+            <p class="p-green">
+              <strong> Play a Card Game with Friends or Family</strong>
+
+              <br/> (Spades, Anyone?)
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_5.svg" alt="">
+          <div class="slider-copy-5">
+            <p class="p-green">
+              <strong>Write a Letter to Someone You Care About</strong>
+              <br/> (On Actual Paper. Drop it in the Mail.)
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_6.svg" alt="">
+          <div class="slider-copy-6">
+            <p class="p-green">
+              <strong> Take a Day Trip to Somewhere You’ve Never Been</strong>
+
+              <br/> (And Always Wanted to Go)
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_7.svg" alt="">
+          <div class="slider-copy-7">
+            <p class="p-green">
+              <strong>Make a Cup of Tea</strong>
+
+              <br/> (Wrap Up in a Blanket and Relax)
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_8.svg" alt="">
+          <div class="slider-copy-8">
+            <p class="p-green">
+              <strong> Enjoy Holiday Treats</strong>
+
+              <br/> (Eat Some, Share Some)
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_9.svg" alt="">
+          <div class="slider-copy-9">
+            <p class="p-green">
+              <strong>Volunteer with a Local Charity</strong>
+              <br/> (Or Just Help a Neighbor)</strong>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_10.svg" alt="">
+          <div class="slider-copy-10">
+            <p class="p-green">
+              <strong> Turn on Your Favorite Album</strong>
+
+              <br/> (Sit Back and Listen)
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_11.svg" alt="">
+          <div class="slider-copy-11">
+            <p class="p-green">
+              <strong>Go Out to a Nice Dinner</strong>
+
+              <br/> (Don’t Forget Dessert)
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="/assets/images/Unplug_Day_12.svg" alt="">
+          <div class="slider-copy-12">
+            <p class="p-green">
+              <strong> Go Offline</strong>
+
+              <br/> (Turn Off Your Wi-Fi and See What Happens Next)
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="lower-body">
+        <div class="bg-blue">
+          <div class="copy-container">
+            <p class="p-white">
+              We are so grateful for the opportunity to work with so many incredible clients, colleagues and friends. If we’re all going
+              to achieve our goals for 2019, we’ve got to be refreshed and energized.
+            </p>
+            <h1 class="h1-gold">Ready, Set, Disconnect!</h1>
+            <p class="p-gold">Turn off your Wi-Fi now to reveal a special surprise and to start recharging.</p>
+          </div>
+        </div>
+        <footer>
+          <div class="footer-container">
+            <div class="infocontainer">
+              <p>©2018 NDG Communications, Inc.</p>
+              <p>105 Centennial Street, Suite K, La Plata, Maryland 20646 | 877.889.1848</p>
+            </div>
+            <div class="icon-container">
+              <img src="/assets/icons/Facebook.svg" alt="">
+              <img src="/assets/icons/Instagram.svg" alt="">
+              <img src="/assets/icons/linkedin.svg" alt="">
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
-  </body>
+  </div>
 
-  <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function() {
-        navigator.serviceWorker.register("./service-worker.js").then(
-          function(registration) {
-            console.log("Registered!", registration.scope);
-          },
-          function(err) {
-            console.log("uh oh", err);
-          }
-        );
-      });
-    }
-  </script>
+  <div class="offline-container" id="showVideo" style="display: none">
+    <img class="village" src="/assets/images/snow-village.png" alt="">
+    <canvas id="sky" width="1458" height="821"></canvas>
+  </div>
+
+
+</body>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("./service-worker.js").then(
+        function (registration) {
+          console.log("Registered!", registration.scope);
+        },
+        function (err) {
+          console.log("uh oh", err);
+        }
+      );
+    });
+  }
+
+</script>
+
 </html>

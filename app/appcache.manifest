@@ -1,3 +1,8 @@
 CACHE MANIFEST
-app/js/js.js
-app/css/styles.css
+https://use.typekit.net/ghw7vsu.css
+https://unpkg.com/flickity@2/dist/flickity.min.css
+https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js
+/js/main.js
+/css/styles.css
+/assets/images/slide-1.png
+/assets/images/Pattern_Full.png

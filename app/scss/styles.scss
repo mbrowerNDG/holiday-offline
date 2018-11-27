@@ -1,23 +1,30 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: franklin-gothic-urw-cond, sans-serif;
 }
+
 .network-switch {
   display: block;
 }
+
 .container {
+  padding-top: 30px;
   min-height: 100vh;
   line-height: 1.5;
   overflow-x: hidden;
   direction: inherit;
 }
+
 .switch-network {
   display: none;
 }
+
 .slider-wrapper {
-  height: 50vh;
+  height: 60vh;
   width: 100%;
 }
+
 .online-wrapper {
   margin: auto;
 }
@@ -42,19 +49,15 @@ body {
   display: block;
   height: auto;
 }
+
 * {
   box-sizing: border-box;
 }
 
-body {
-  font-family: sans-serif;
-}
-
 .carousel-cell {
-  width: 100%; /* full width */
+  width: 100%;
+  /* full width */
   height: 60vh;
-
-  /* center images in cells with flexbox */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,69 +71,169 @@ body {
   display: block;
   max-height: 60vh;
 }
+
 .flickity-button {
   background: transparent;
 }
+
 /* big previous & next buttons */
+
 .flickity-prev-next-button {
   width: 75px;
   height: 64px;
 }
+
 /* icon color */
+
 .flickity-button-icon {
   fill: #7e828e;
 }
 
 .flickity-prev-next-button.previous {
-  left: 25%;
+  left: 15%;
 }
+
 .flickity-prev-next-button.next {
-  right: 25%;
+  right: 15%;
 }
+
+.lower-body {
+  height: 40vh;
+}
+
 .bg-blue {
-  min-height: 30vh;
-  background: url("../assets/images/Pattern_Full.png");
+  background: url("/assets/images/Pattern_Full.png");
   background-repeat: intial;
   object-fit: contain;
   width: 100%;
   margin-top: 30px;
 }
+
 .copy-container {
   padding-top: 30px;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   max-width: 40vw;
   margin: auto;
   padding-bottom: 98px;
 }
+
 .p-white {
-  color: #ffffff;
+  height: 69px;
+  width: 561px;
+  color: #FFFFFF;
   font-size: 20px;
-  font-weight: 500;
   line-height: 23px;
-  text-align: left;
 }
+
 .h1-gold {
   color: #ceaa79;
   font-size: 54px;
   font-weight: 500;
   letter-spacing: 1.35px;
   line-height: 28px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 20px;
 }
+
+.p-green {
+  color: #62BDCB;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.slider-copy {
+  position: absolute;
+  right: 55.8%;
+  top: 70%
+}
+
+.slider-copy-2 {
+  position: absolute;
+  right: 56.1%;
+  top: 65%;
+}
+
+.slider-copy-3 {
+  position: absolute;
+  right: 45.4%;
+  top: 65%;
+}
+
+.slider-copy-4 {
+  position: absolute;
+  right: 50%;
+  top: 57%;
+}
+
+.slider-copy-5 {
+  position: absolute;
+  right: 52%;
+  top: 62%;
+}
+.slider-copy-6 {
+  position: absolute;
+  right: 45.8%;
+  top: 62%;
+}
+.offline-container {
+  // background: url("/assets/images/snow-village.png");
+  // height: 100vh;
+  // width: 100vw;
+}
+
+.slider-copy-7 {
+  position: absolute;
+  right: 53.7%;
+  top: 69%;
+}
+
+.slider-copy-8 {
+  position: absolute;
+  right: 55.8%;
+  top: 68%;
+}
+
+.slider-copy-9 {
+  position: absolute;
+  right: 48.3%;
+  top: 56%;
+}
+
+.slider-copy-10 {
+  position: absolute;
+  right: 54.2%;
+  top: 64%;
+}
+
+.slider-copy-11 {
+  position: absolute;
+  right: 58.5%;
+  top: 70%;
+}
+
+.slider-copy-12 {
+  position: absolute;
+  right: 51.6%;
+  top: 69%;
+}
+
 .p-gold {
   color: #ceaa79;
   font-size: 20px;
-  font-weight: 500;
   line-height: 23px;
 }
+
 footer {
   background: #102b4c;
   min-height: 10vh;
-  display: flex;
-  .footer-container{
+  .footer-container {
     padding: 33px 100px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
   }
   p {
     color: #ffffff;
@@ -139,8 +242,23 @@ footer {
     line-height: 17px;
     align-self: flex-start;
   }
-  .icons{
-    align-self: flex-end
+  .icon-container {
+    align-self: flex-end;
+    margin-left: auto;
   }
-  
+  .infocontainer {
+    margin-right: auto;
+  }
+  img {
+    padding: 4px;
+  }
+}
+.village {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.offline-container{
+  background: #4d96b0;
 }
