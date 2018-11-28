@@ -10,7 +10,7 @@ window.onload = () => {
   canvas.height = H;
 
   //generate the snowflakes and apply attrs
-  let mf = 250; //max flakes
+  let mf = 400; //max flakes
   let flakes = [];
 
   //loop through empty flakes and apply attrs
@@ -18,7 +18,7 @@ window.onload = () => {
     flakes.push({
       x: Math.random() * W,
       y: Math.random() * H,
-      r: Math.random() * 5 + 2, //min of 2px and max of 7px
+      r: Math.random() * 4 + 1, //min of 2px and max of 7px
       d: Math.random() + 1 //density of the flake
     });
   }
