@@ -3,17 +3,16 @@ const filesToCache = [
     'index.html',
     'css/styles.css',
     'js/main.js',
-    
-    '/assets/icons',
-    '/assets/images',
-    '/assets/videos'
-   
-  
-  
+    'js/snow.js',
+    'assets/images/snow-village.png'
+
+
+
+
   ];
-  
+
   const staticCacheName = 'offline-content';
-  
+
   self.addEventListener('install', event => {
     console.log('Attempting to install service worker and cache static assets');
     event.waitUntil(
@@ -22,7 +21,7 @@ const filesToCache = [
         console.log('success')
         console.log(cache)
         return cache.addAll(filesToCache);
-  
+
       })
     );
   });
@@ -37,12 +36,12 @@ const filesToCache = [
         }
         console.log('Network request for ', event.request.url);
         return fetch(event.request)
-  
-  
+
+
       }).catch(error => {
-  
+
        return false;
-  
+
       })
     );
   });

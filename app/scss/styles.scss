@@ -3,12 +3,15 @@ body {
   padding: 0;
   font-family: franklin-gothic-urw-cond, sans-serif;
 }
+
 .desktop-only {
   display: block !important;
 }
+
 .mobile-tablet {
   display: none;
 }
+
 .container {
   line-height: 1.5;
   overflow-x: hidden;
@@ -67,15 +70,19 @@ body {
 }
 
 /* icon color */
+
 .flickity-button {
   background: transparent;
 }
+
 .flickity-button-icon {
   fill: #7e828e;
 }
+
 .flickity-prev-next-button:hover {
   background: transparent;
 }
+
 .flickity-prev-next-button.previous {
   left: 15%;
 }
@@ -126,6 +133,7 @@ body {
   margin: 0;
   padding-top: 20px;
 }
+
 .h1-white {
   color: #ffffff;
   font-size: 54px;
@@ -148,6 +156,7 @@ body {
   right: 0;
   bottom: 131px;
 }
+
 .slider-copy-2 {
   position: relative;
   right: 0;
@@ -159,6 +168,7 @@ body {
   right: 0;
   bottom: 159px;
 }
+
 .slider-copy-4 {
   position: relative;
   right: 0;
@@ -170,6 +180,7 @@ body {
   right: 0;
   bottom: 165px;
 }
+
 .slider-copy-6 {
   position: relative;
   right: 0;
@@ -181,6 +192,7 @@ body {
   right: 0;
   bottom: 144px;
 }
+
 .slider-copy-8 {
   position: relative;
   right: 0;
@@ -244,15 +256,18 @@ footer {
     padding: 4px;
   }
 }
+
 .village {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
 }
+
 .offline-container {
   background: #4d96b0;
 }
+
 .img-copy-container {
   align-self: baseline;
 }
@@ -267,6 +282,7 @@ footer {
   height: auto;
   width: 100%;
 }
+
 .flickity-button:focus {
   outline: 0;
   box-shadow: none;
@@ -284,15 +300,16 @@ footer {
   transform: translate(-50%);
   text-align: center;
 }
+
 .hide-mobile-only-phone {
   display: block !important;
 }
+
 //tablet media queries
 @media (min-width: 768px) and (max-width: 1024px) {
   .desktop-only {
     display: none !important;
   }
-
   .mobile-tablet {
     display: block;
   }
@@ -306,7 +323,6 @@ footer {
   .flickity-prev-next-button.previous {
     left: 1%;
   }
-
   .flickity-prev-next-button.next {
     right: 1%;
     top: 50%;
@@ -336,18 +352,19 @@ footer {
     bottom: 129px;
   }
   .hide-mobile-only-phone {
-    display: block !important ;
+    display: block !important;
   }
   .show-tablet-desktop {
     display: block !important;
   }
 }
+
 //phone styles
 @media (min-width: 320px) and (max-width: 480px) {
   .desktop-only {
     display: none !important;
   }
-  .mobile-tablet{
+  .mobile-tablet {
     display: block;
   }
   .show-tablet-desktop {
@@ -369,7 +386,6 @@ footer {
     left: 20%;
     top: 80%;
   }
-
   .flickity-prev-next-button.next {
     top: 80%;
     right: 20%;
@@ -391,7 +407,6 @@ footer {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-
   .hide-mobile-only-phone {
     display: none !important;
   }
@@ -410,7 +425,6 @@ footer {
     right: 0;
     bottom: 10px;
   }
-
   .slider-copy-3 {
     position: relative;
     right: 0;
@@ -421,7 +435,6 @@ footer {
     right: 0;
     bottom: 10px;
   }
-
   .slider-copy-5 {
     position: relative;
     right: 0;
@@ -432,7 +445,6 @@ footer {
     right: 0;
     bottom: 10px;
   }
-
   .slider-copy-7 {
     position: relative;
     right: 0;
@@ -443,25 +455,21 @@ footer {
     right: 0;
     bottom: 10px;
   }
-
   .slider-copy-9 {
     position: relative;
     left: 0;
     bottom: 10px;
   }
-
   .slider-copy-10 {
     position: relative;
     right: 0;
     bottom: 10px;
   }
-
   .slider-copy-11 {
     position: relative;
     right: 0;
     bottom: 10px;
   }
-
   .slider-copy-12 {
     position: relative;
     right: 0;
@@ -472,14 +480,14 @@ footer {
     margin-top: 35px;
     padding: 25px;
   }
-  .bg-blue{
+  .bg-blue {
     padding: 25px;
   }
-  .h1-gold{
+  .h1-gold {
     line-height: 54px;
     margin-top: 35px;
   }
-  .p-white{
+  .p-white {
     width: 285px;
   }
   .copy-container {
@@ -489,10 +497,49 @@ footer {
     flex-direction: column;
     margin: auto;
     padding-bottom: 48px;
-}
-.slider-wrapper {
-  height: 50vh;
-  width: 100%;
-  overflow: hidden;
-}
+  }
+  .slider-wrapper {
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .footer-container-mobile {
+    padding: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .infocontainer-mobile {
+    align-self: flex-start;
+    width: 80%;
+    font-size: 16px;
+
+  }
+  .icon-container-mobile {
+    align-self: center;
+  }
+  button a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    background: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  button{
+    border: 2px solid #FFFFFF;
+    height: 50px;
+    width: 325px;
+    background: transparent;
+  }
+  .button-container{
+    align-self: center;
+    margin: auto;
+    padding: 25px 0 25px
+  }
+  footer p{
+    font-size: 16px;
+  }
 }
